@@ -139,13 +139,13 @@ ul.posts {
 
 
 
-    .site .footer .rss {
+    .site .footer .rss .menu {
       margin-top: 1.1em;
       margin-right: -.2em;
       float: right;
     }
 
-      .site .footer .rss img {
+      .site .footer .menu .rss img {
         border: 0;
       }
 
