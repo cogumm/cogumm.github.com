@@ -1,0 +1,26 @@
+---
+layout: default
+title: Gabriel F. Vilar (CoGUMm)
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  
+  <h1>Blogs, Sites e projetos</h1>
+  <ul class="posts">
+    <li><span>CoGUMm</span> &raquo; <a href="http://cogumm.net/" target="_blank">Meu blog</a></li>
+    <li><span>urele.com</span> &raquo; <a href="http://urele.com/" target="_blank">O primeiro encurtador de url totalmente brasileiro e em Rails ;)</a></li>
+  </ul>
+  
+  <h1>Projetos</h1>
+  <ul class="posts">
+    <li><a href="http://github.com/cogumm/DojoRN/" target="_blank">DojoRN:</a> Timer para #Dojos.</li>
+    <li><a href="http://github.com/cogumm/ExemploRails3/" target="_blank">Rails3:</a> Meu projeto de estudos de Ruby 1.9 + Rails 3 + HTML 5 + CSS 3.</li>
+    <li><a href="http://github.com/cogumm/performance/" target="_blank">Teste de performance:</a> Testes de performance no ruby 1.8 e 1.9.</li>
+</div>
+  
