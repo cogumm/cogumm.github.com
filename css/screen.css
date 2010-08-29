@@ -128,9 +128,16 @@ ul.posts {
       margin-right: 3em;
     }
 
-      .site .footer .contact a {
+      .site .footer .contact .menu a {
         color: #8085C1;
       }
+
+
+    .menu {
+
+    }
+
+
 
     .site .footer .rss {
       margin-top: 1.1em;
